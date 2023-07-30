@@ -4,7 +4,7 @@
   "description": "Anti-Spoofing",
   "main": "anti-spoofing.js",
   "scripts": {
-    "start": "node anti-spoofing.js"
+    "start": "node anti-spoofing-with-faceapi.js"
   },
   "engines": {
     "node": ">=14.0.0"

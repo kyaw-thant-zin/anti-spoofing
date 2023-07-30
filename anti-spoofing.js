@@ -37,7 +37,8 @@ async function main() {
 
   // load image and get approprite tensor for it
   const inputSize = Object.values(model.modelSignature['inputs'])[0].tensorShape.dim[2].size;
-  const imageFile = process.argv.length > 2 ? process.argv[2] : null;
+  // const imageFile = process.argv.length > 2 ? process.argv[2] : null;
+  const imageFile = '/Users/kyawthantzin/Documents/GitHub/kyawthantzin/anti-spoofing/real.jpg'
   if (!imageFile || !fs.existsSync(imageFile)) {
     log.error('Specify a valid image file');
     process.exit();

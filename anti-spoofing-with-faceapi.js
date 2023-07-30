@@ -15,7 +15,8 @@ async function main() {
   log.header();
   log.info('FaceAPI with AntiSpoofing');
 
-  const input = process.argv[2];
+  // const input = process.argv[2];
+  const input = '/Users/kyawthantzin/Documents/GitHub/kyawthantzin/anti-spoofing/test2.jpg'
   if (!input || !fs.existsSync(input)) {
     log.error('input image file missing');
     process.exit(1);
